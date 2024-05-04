@@ -1,24 +1,17 @@
 import './header stule.css'
-import logo from '/workspaces/Kursavv/my-app/public/logo.png';
-import { useState } from 'react';
-
+import logo from '../../images/logo.png';
 
 
 export default () => {
-    const [now, setNow] = useState(new Date());
-
-    setInterval(() => setNow (new Date()), 1000)
     return (
         <header>
         <img src={logo} alt='logo react'></img>
         <nav> 
-          <ul>
-            <li><a href='#'>Item 1</a></li>
-            <li><a href='#'>Item 2</a></li>
-            <li><a href='#'>Item 3</a></li>
-          </ul>
+          <h1>VisVel</h1> 
+          <h2>Login</h2>
         </nav>
-        <span>Time now: {(new Date()).toLocaleTimeString()}</span>
+        
       </header>
     )
 }
+
