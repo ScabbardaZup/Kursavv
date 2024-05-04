@@ -3,7 +3,7 @@ header {
     justify-content: space-around;
     align-items: center; 
     height: 10vh;
-    background-color: blueviolet;
+    background: linear-gradient(80deg, rgba(114,2,221,1) 0%, rgba(125,23,139,1) 100%);
 }
 
 img{
@@ -15,24 +15,11 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 25px;
+    font-size: 35px;
+    font-family: "Amatic SC", sans-serif;
     h2 {
         margin-right: 0.5%;
+        margin-bottom: 0.5%;
     }
 }
  
-/* h1 {
-    display: flex;
-    list-style: none;
-    font-size: 40px;
-    color: rgb(0, 0, 0);
-} */
-
-/* h2 {
-    display: flex;
-    list-style: none;
-    justify-content: right;
-    text-decoration: none;
-    font-size: 35px;
-    color: rgb(0, 0, 0);
-} */
