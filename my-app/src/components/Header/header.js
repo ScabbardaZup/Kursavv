@@ -1,5 +1,5 @@
 import './header stule.css'
-import logo from '../../logo.svg';
+import logo from '/workspaces/Kursavv/my-app/public/logo.png';
 import { useState } from 'react';
 
 
