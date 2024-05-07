@@ -7,7 +7,6 @@ import podium from '/workspaces/Kursavv/my-app/src/images/podium.png'
 import megaphone from '/workspaces/Kursavv/my-app/src/images/megaphone.png'
 import cleve from '/workspaces/Kursavv/my-app/src/images/cleve.png'
 
-
 function App() {
   return (
     <div className="App">
